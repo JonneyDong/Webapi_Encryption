@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiDemo", "WebApiDemo\WebApiDemo.csproj", "{F45B32C6-A4AA-4754-B120-1BEE39E2CB03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Joy.Common", "Joy.Common\Joy.Common.csproj", "{EBA0AC14-3995-4994-BC06-742ECCB16146}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiDemoTests", "WebApiDemoTests\WebApiDemoTests.csproj", "{9FA7CEAB-2630-4D14-A160-9AF368110EE4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F45B32C6-A4AA-4754-B120-1BEE39E2CB03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F45B32C6-A4AA-4754-B120-1BEE39E2CB03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F45B32C6-A4AA-4754-B120-1BEE39E2CB03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F45B32C6-A4AA-4754-B120-1BEE39E2CB03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBA0AC14-3995-4994-BC06-742ECCB16146}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBA0AC14-3995-4994-BC06-742ECCB16146}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBA0AC14-3995-4994-BC06-742ECCB16146}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBA0AC14-3995-4994-BC06-742ECCB16146}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FA7CEAB-2630-4D14-A160-9AF368110EE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FA7CEAB-2630-4D14-A160-9AF368110EE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FA7CEAB-2630-4D14-A160-9AF368110EE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FA7CEAB-2630-4D14-A160-9AF368110EE4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,11 +1,34 @@
-#Webapi_Encryption
+﻿
+//==============================================================
+//  Copyright (C) 2017 JonneyDong Inc. All rights reserved.
+//
+//==============================================================
+//  Create by JonneyDong at 2017/2/25 12:50:43.
+//  Version 1.0
+//  JonneyDong [mailto:jonneydong@gmail.com]
+//==============================================================
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using WebApiDemo.Controllers;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Net.Http;
+using Joy.Common;
+using System.Diagnostics;
 
-WEBAPI实现通讯加密
+namespace WebApiDemo.Controllers.Tests
+{
+    [TestClass()]
+    public class ApiTestControllerTests
+    {
+        HttpClient http = new HttpClient()
+        {
+            BaseAddress = new Uri("http://localhost:34475/")
+        };
 
-Base64加密 和DES加密
-
-单元测试
- [TestMethod()]
+        [TestMethod()]
         public void GetTest()
         {
             var id = 10;
@@ -61,3 +84,5 @@ Base64加密 和DES加密
 
             Assert.AreEqual(result, resultSuccess);
         }
+    }
+}
