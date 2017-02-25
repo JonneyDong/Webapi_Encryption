@@ -1,3 +1,9 @@
+#cnblogs
+http://www.cnblogs.com/jonneydong/p/WebApi_Encryption.html
+
+#git on oschina
+https://git.oschina.net/jonneydong/Webapi_Encryption
+
 #Webapi_Encryption
 
 WEBAPI实现通讯加密
